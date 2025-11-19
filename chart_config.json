@@ -1,0 +1,11 @@
+{
+  "chart_settings": {
+    "default_bars": 80,
+    "candle_style": "charles",
+    "figure_size": [
+      12,
+      8
+    ],
+    "dpi": 100
+  }
+}

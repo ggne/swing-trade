@@ -1,0 +1,20 @@
+{
+  "market_regime_settings": {
+    "bull": {
+      "min_rsi": 35,
+      "max_rsi": 75
+    },
+    "bear": {
+      "min_rsi": 40,
+      "max_rsi": 65
+    },
+    "sideways": {
+      "min_rsi": 30,
+      "max_rsi": 70
+    },
+    "volatile": {
+      "min_rsi": 25,
+      "max_rsi": 75
+    }
+  }
+}

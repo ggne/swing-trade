@@ -1,0 +1,18 @@
+{
+  "swing_enabled": true,
+  "symbols": [
+    "AKBNK",
+    "GARAN",
+    "THYAO",
+    "TUPRS"
+  ],
+  "exchange": "BIST",
+  "lookback_bars": 250,
+  "min_rsi": 30.0,
+  "max_rsi": 70.0,
+  "min_trend_score": 50,
+  "create_charts": true,
+  "use_multi_timeframe": true,
+  "use_fibonacci": true,
+  "use_consolidation": true
+}

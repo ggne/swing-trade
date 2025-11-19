@@ -1,0 +1,10 @@
+{
+  "window_settings": {
+    "default_width": 1800,
+    "default_height": 1000
+  },
+  "quick_lists": {
+    "bist30": ["AKBNK", "GARAN", "THYAO", "TUPRS"],
+    "banks": ["AKBNK", "GARAN", "ISCTR"]
+  }
+}
