@@ -1,0 +1,55 @@
+SWİNG TRADE PROJE DOSYA YAPISI
+
+core/
+│
+├─ types.py         
+├─ utils.py         
+│
+analysis/
+│
+├─ multi_timeframe.py    
+├─ trend_score.py
+├─ support_resistance.py    
+├─ consolidation.py      
+├─ fibonacci.py
+├─ market_condition.py 
+filters/
+│       
+├─ basic_filters.py     
+│
+risk/
+│
+├─ position_sizer.py      
+├─ stop_target_manager.py  
+├─ trade_validator.py         
+│
+scanner/
+│
+├─ parallel_scanner.py      
+├─ swing_hunter.py          
+│
+backtest/
+│
+├─backtester.py   
+│
+cache/
+│
+├─ data_cache.py
+│
+indicators/
+│
+├─ ta_manager.py
+│
+patterns/
+│
+├─ price_action.py
+│
+smart_filter/
+│
+├─ smart_filter.py 
+│
+gui/
+│
+├─ chart_widget.py
+│
+swing_analyzer_main.py, swing_gui_advanced_plus.py, swing_config.json, requirements.txt                      
