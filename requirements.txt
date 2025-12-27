@@ -1,64 +1,19 @@
 # requirements.txt - Swing Hunter Ultimate Bağımlılıkları
 
-# Core Data Processing
-pandas>=1.5.0
+pandas>=2.0.0
 numpy>=1.24.0
+tvdatafeed>=2.1.0
 
-# Market Data
-tvDatafeed>=2.1.9
-
-# Technical Analysis
+# Teknik analiz
 ta>=0.11.0
-
-# TA-Lib (İsteğe bağlı - Binary kurulum gerektirir)
-# Windows: https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
-# Linux/Mac: Önce C kütüphanesi kurulmalı
-# TA-Lib>=0.4.28
 
 # GUI
 PyQt5>=5.15.0
 pyqtgraph>=0.13.0
 
-# Visualization (Chart Widget için)
-matplotlib>=3.7.0
-
-# Excel Export
+# Excel/CSV
 openpyxl>=3.1.0
 xlsxwriter>=3.1.0
 
-# Utilities
+# Ek
 python-dateutil>=2.8.0
-
-# ============================================
-# KURULUM TALİMATLARI
-# ============================================
-
-# 1. TEMEL KURULUM:
-#    pip install -r requirements.txt
-
-# 2. TA-LIB KURULUMU (İsteğe bağlı - chart_widget.py için gerekli):
-#    
-#    Windows:
-#    - İndir: https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib
-#    - Kur: pip install TA_Lib-0.4.28-cp310-cp310-win_amd64.whl
-#    
-#    Linux/Mac:
-#    - sudo apt-get install ta-lib  # veya brew install ta-lib
-#    - pip install TA-Lib
-
-# 3. DOĞRULAMA:
-#    python -c "import pandas, numpy, tvDatafeed, ta, PyQt5; print('✅ Tüm paketler yüklü!')"
-
-# ============================================
-# OPSIYONEL PAKETLER
-# ============================================
-
-# Daha hızlı hesaplamalar için
-# numba>=0.57.0
-
-# Gelişmiş grafikler için
-# plotly>=5.14.0
-# seaborn>=0.12.0
-
-# GPU hızlandırma için (gelişmiş sistemler)
-# cupy>=12.0.0
